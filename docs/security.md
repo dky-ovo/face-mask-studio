@@ -17,7 +17,7 @@ FaceMaskStudio 的识别、跟踪、预览和导出在本机完成。程序没�
 
 公开发布包不附带独立 Gyan FFmpeg 编码器，以便其下载与本地使用和本项目的二进制分发分开进行。视频准备脚本验证 ZIP 的固定 SHA-256，只提取所需的 `ffmpeg.exe`。OpenCV 轮子内的 LGPL FFmpeg 组件随发布包提供，并附有相应的许可证与对应源码包；它和视频导出需要的独立编码器是两个组件。
 
-对应源码包 [FaceMaskStudio-1.0.0-OpenCV-FFmpeg-sources.zip](https://github.com/Anesthesia-ovo/face-mask-studio/releases/download/v1.0.0/FaceMaskStudio-1.0.0-OpenCV-FFmpeg-sources.zip) 保存在 1.0.0 发布页；1.0.1 使用相同的第三方组件，继续使用这份对应源码。第三方组件的详细说明见 [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md)。
+对应源码包 [FaceMaskStudio-1.0.0-OpenCV-FFmpeg-sources.zip](https://github.com/dky-ovo/face-mask-studio/releases/download/v1.0.0/FaceMaskStudio-1.0.0-OpenCV-FFmpeg-sources.zip) 保存在 1.0.0 发布页；1.0.1 使用相同的第三方组件，继续使用这份对应源码。第三方组件的详细说明见 [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md)。
 
 ## 实现中的限制
 

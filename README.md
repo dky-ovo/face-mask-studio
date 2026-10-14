@@ -4,7 +4,7 @@
 
 适合需要保留主角、保护路人面部隐私的日常素材处理。提供中文图形界面和 Windows 便携版，无需上传素材，也无需安装 Python。发布包解压即可处理图片；视频导出需要先准备本地编码器。
 
-[下载 Windows 便携版](https://github.com/Anesthesia-ovo/face-mask-studio/releases) · [详细使用说明](docs/usage.md) · [离线设计与验证](docs/security.md)
+[下载 Windows 便携版](https://github.com/dky-ovo/face-mask-studio/releases) · [详细使用说明](docs/usage.md) · [离线设计与验证](docs/security.md)
 
 ## 功能
 
@@ -23,7 +23,7 @@
 
 ## 开始使用
 
-1. 在 [Releases](https://github.com/Anesthesia-ovo/face-mask-studio/releases) 下载 Windows x64 便携包，解压到本地文件夹。
+1. 在 [Releases](https://github.com/dky-ovo/face-mask-studio/releases) 下载 Windows x64 便携包，解压到本地文件夹。
 2. 双击 `FaceMaskStudio.exe`。保留同目录的 `_internal` 文件夹，完整移动整个程序目录。
 3. 如需视频导出，在解压目录运行附带的 `准备视频组件.ps1`，一次性下载并核验 FFmpeg。具体方法见下方说明。
 4. 添加素材，在预览中确认绿色保留框和橙色遮挡框。
@@ -140,4 +140,4 @@ build.ps1               Windows 构建入口
 
 本项目原创代码使用 [MIT 许可证](LICENSE)。模型、运行库和 FFmpeg 遵循各自的许可证；完整说明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 与 [`licenses/`](licenses/)。第三方许可证不会因本项目采用 MIT 而改变。
 
-欢迎通过 [Issues](https://github.com/Anesthesia-ovo/face-mask-studio/issues) 提交问题。请附上系统版本、操作步骤、错误日志与不含隐私的复现素材；不要公开上传需要保护的人脸原片。
+欢迎通过 [Issues](https://github.com/dky-ovo/face-mask-studio/issues) 提交问题。请附上系统版本、操作步骤、错误日志与不含隐私的复现素材；不要公开上传需要保护的人脸原片。
